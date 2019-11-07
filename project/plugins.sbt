@@ -4,7 +4,7 @@ resolvers += Resolver.typesafeRepo("releases")
 
 resolvers += Resolver.sonatypeRepo("releases")
 
-resolvers += "Era7 maven releases" at "http://releases.era7.com.s3.amazonaws.com"
+resolvers += "Era7 maven releases" at "https://s3-eu-west-1.amazonaws.com/releases.era7.com"
 
 resolvers += Resolver.url("ambiata-oss", new URL("https://ambiata-oss.s3.amazonaws.com"))(Resolver.ivyStylePatterns)
 

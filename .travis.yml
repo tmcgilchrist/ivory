@@ -1,9 +1,8 @@
 # Use container-based infrastructure
-dist: xenial
 sudo: false
 language: scala
 scala:
-   - 2.11.5
+   - 2.11.4
 jdk:
   - oraclejdk9
 env:
