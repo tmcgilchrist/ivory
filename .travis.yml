@@ -1,5 +1,4 @@
 # Use container-based infrastructure
-dist: xenial
 sudo: false
 language: scala
 scala:
